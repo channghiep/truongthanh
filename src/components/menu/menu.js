@@ -24,6 +24,12 @@ const Menu = () => {
                 <li tabIndex="1" onClick={() => menuChangeOnClick(SpecialOrdersList)}><h3>SPECIAL ORDERS</h3></li>
                 <li tabIndex="1" onClick={() => menuChangeOnClick(SpecialList)}><h3>Everyday Special Combo</h3></li>
                 <li tabIndex="1" onClick={() => menuChangeOnClick(VietSubList)}><h3>Vietnamese Sub</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(VermicelliList)}><h3>Vermicelli</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(FamilyDinnerList)}><h3>Family Dinner</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(VegetarianList)}><h3>Vegetarian</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(CoffeeList)}><h3>Coffee</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(DessertsList)}><h3>Desserts</h3></li>
+                <li tabIndex="1" onClick={() => menuChangeOnClick(SmoothiesList)}><h3>Fruit Smoothies</h3></li>
 
             </ul>
             {/* <select className="menu-selection">
