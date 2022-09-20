@@ -357,3 +357,167 @@ export const VermicelliList = [
         description:"beef short ribs sugarcane, with Vermicelli"
     }
 ]
+export const FamilyDinnerList = [
+    {
+        name:"Canh Chua Cá Bông Lau",
+        price:"25",
+        description:"Hot & Sour Fish Soup"
+    },
+    {
+        name:"Cá Bông Lau / Thịt Kho Tộ",
+        price:"17",
+        description:"Vietnamese Braised Fish or Pork"
+    },
+    {
+        name:"Canh Chua Tôm",
+        price:"25",
+        description:"Hot & Sour Prawn Soup"
+    },
+    {
+        name:"Cá Rô Phi Sốt Cà",
+        price:"20",
+        description:"Deep Fried Tilapia Fish in Tomato Sauce"
+    },
+    {
+        name:"Cá Rô Phi Chien Dòn",
+        price:"18",
+        description:"Deep Fried Tilapia Fish"
+    },
+    {
+        name:"Rau Cần Xào Bò",
+        price:"20",
+        description:"Stir-fried Beef with Vegetables"
+    },
+]
+export const VegetarianList = [
+    {
+        name:"Bún Chả Giò Đàu Hủ",
+        price:"12",
+        description:"Deep fried tofu and spring rolls with vermicelli"
+    },
+    {
+        name:"Phở Chay",
+        price:"12",
+        description:"Vegetable rice noodle soup"
+    },
+    {
+        name:"Cơm Xào Rau Chay Đàu Hủ",
+        price:"14",
+        description:"Stir fried vegetable and deep-fried tofu on rice"
+    },
+    {
+        name:"Cơm Chien Chay",
+        price:"14",
+        description:"Vegetarian Fried Rice"
+    }
+]
+export const CoffeeList = [
+    {
+        name:"Cà Phê Sữa Đá",
+        price:"5.50",
+        description:"Iced Vietnamese Coffee with Condensed Milk"
+    },
+    {
+        name:"Cà Phê Sữa Nóng",
+        price:"5.5",
+        description:"Hot Vietnamese Coffee with Condensed Milk"
+    }
+]
+export const DessertsList = [
+    {
+        name:"Chè Ba Màu",
+        price:"6",
+        description:"Three Kinds of Beans with Coconut Milk on Ice"
+    },
+    {
+        name:"Chè Đậu Đỏ",
+        price:"6",
+        description:"Red Bean with Coconut Milk on Ice"
+    },
+    {
+        name:"Chè Đậu Đà Lạt",
+        price:"6",
+        description:"White Bean with Coconut Milk on Ice"
+    }
+]
+export const SmoothiesList = [
+    {
+        name:"Sinh Tố Dau",
+        price:"6",
+        description:"Strawberry Smoothie"
+    },
+    {
+        name:"Sinh Tố Bo",
+        price:"6",
+        description:"Avocado Smoothie"
+    },
+    {
+        name:"Sinh Tố Mit",
+        price:"6",
+        description:"Jackfruit Smoothie"
+    },
+    {
+        name:"Sinh Tố Khớm / Dứa",
+        price:"6",
+        description:"Pineapple Smoothie"
+    },
+    {
+        name:"Sinh Tố Xoai",
+        price:"6",
+        description:"Mango Smoothie"
+    }
+]
+export const BubbleTeaList = [
+    {
+        name:"Dâu",
+        price:"6",
+        description:"Strawberry"
+    },
+    {
+        name:"Khoai Môn",
+        price:"6",
+        description:"Taro"
+    },
+    {
+        name:"Đu Đủ",
+        price:"6",
+        description:"Papaya"
+    },
+    {
+        name:"Xoài",
+        price:"6",
+        description:"Mango"
+    },
+    {
+        name:"Trái Bom Xanh",
+        price:"6",
+        description:"Green Apple"
+    }
+]
+export const BeverageList = [
+    {
+        name:"Đa Chanh",
+        price:"5",
+        description:"Iced Fresh Lemonade"
+    },
+    {
+        name:"Soda Chanh",
+        price:"5",
+        description:"Iced Fresh Lemon Soda"
+    },
+    {
+        name:"Chanh muối",
+        price:"5",
+        description:"Salty Plum Soda"
+    },
+    {
+        name:"Nước Dừa",
+        price:"5",
+        description:"Young Coconut Juice"
+    },
+    {
+        name:"Nước Ngọt",
+        price:"2.5",
+        description:"Soft Drinks"
+    }
+]
