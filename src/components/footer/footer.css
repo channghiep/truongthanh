@@ -1,0 +1,17 @@
+/* Styling footer */
+.footer-container{
+    /* background-color: azure; */
+    border-top: #EFD6AC solid 1px;
+    padding: 20px;;
+    background-color: #040926;
+    color: #EFD6AC;
+}
+.footer-container h2{
+    margin-top: 0px;
+}
+.footer-container a{
+    text-decoration: none;
+}
+.footer-container ul li{
+    list-style: none;
+}

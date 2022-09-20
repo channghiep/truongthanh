@@ -1,0 +1,47 @@
+/* .speciality-container h1 {
+    font-size: 30px;
+    text-align: center;
+  } */
+  .specialty-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0% 100%;
+    /* height: 300px; */
+  }
+  .special_dishes {
+    background-image: url("../../../assets/eat.jpg") ;
+    background-position: center;
+    background-size: cover;
+  }
+  /* .special_dishes p{
+    color: aquamarine;
+  } */
+  
+  
+  .specialty-container .box-container{
+    width: 100%;
+    margin: auto;
+  }
+  @media  (min-width: 630px) {
+    .specialty-container{
+        grid-template-columns: 50% 50%; 
+    }
+  }
+  
+  @media(min-width: 1000px){
+    .specialty-container {
+      width: 80%;
+      margin: auto;
+      margin-top: 2rem;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 25% 75%;
+    }
+    /* .speciality .box-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+    } */
+  }

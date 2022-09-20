@@ -1,0 +1,28 @@
+.menu-card{
+    background-color: #040926;
+    color: white;
+    /* height: 1000px; */
+}
+.menu-card h2{
+    padding-top: 20px;
+    color:#EFD6AC;
+}
+.menu-item {
+    /* color: red; */
+
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: left;
+    padding-left: 4rem;
+    /* align-items: left; */
+}
+.menu-item div{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.mains-price{
+    color:#EFD6AC;
+}
+.mains-description{
+    margin-top: -10px;
+}

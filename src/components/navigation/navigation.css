@@ -1,0 +1,138 @@
+.nav-wrapper{
+    position: relative;
+    display: block;
+    background-color: black;
+}
+.nav-container{
+    /* position: absolute; */
+    width: 100%;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    /* padding: 25px 15px 20px 15px; */
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 90% 10%;
+
+}
+.nav-container .nav-logo p{
+    margin: 0px;
+}
+
+/* Style logo */
+.nav-logo {
+    text-align: center;
+    /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+    /* font-size: 40px;
+    font-weight: 600; */
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin-right: 60%;
+}    
+.nav-logo a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-logo p{
+  font-size: 1rem;
+  margin: 0;
+  color: #fff;
+}
+/* Styling nav-bar */
+.nav-bar ul{
+    display: none;
+}
+/* .nav-container .nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+} */
+
+.nav-bar{
+    /* text-align: right; */
+    /* position: relative; */
+}
+/* Create burger icon inactive state*/
+.burger-button{
+    text-align: right;
+    margin-top: 10px;
+    /* margin: 0px auto; */
+    /* height: 40px;
+    width: 40px; */
+    /* margin: 0; */
+}
+.burger-line{
+    height: 2px;;
+    width: 30px;
+    
+    background-color: white;
+    transition: .1s ease;     
+}
+.burger-inactive{
+    margin: 3px;
+}
+    /* Make burger button transform to X */
+    .burger-active-top{
+        transition: .1s ease;
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    .burger-active-bottom{
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        transition: .1s ease;
+        position: absolute;
+    }
+    /* Hide menu list */
+    .nav-ul{
+        color: white;
+        transition: .5s ease;
+        list-style: none;
+        text-align: center;
+        background-color: black;
+        margin: 0px;
+        
+    }
+    .nav-ul li a{
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-ul-closed{
+        height: 0px;
+    }
+    .nav-ul-closed li{
+        display:none;
+    }
+    .nav-ul-opened{
+        height: 100vh;
+        padding-top: 100px;
+    }
+    @media (min-width: 1000px) {
+        .nav-container{
+
+            grid-template-columns: 50% 50%;
+        
+        }
+
+        .burger-button{
+            display: none;
+        }
+        .nav-ul{
+            display: none;
+        }
+        .nav-bar ul{
+            display: block;
+            margin-top: 0px;
+            padding-left: 30%;
+            
+        }
+        .nav-bar ul li{
+            /* margin-top: 0px; */
+            display: inline-block;
+            list-style: none;
+            margin: 5px 20px;
+            color: white;
+        }
+
+    }

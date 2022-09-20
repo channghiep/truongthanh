@@ -1,6 +1,8 @@
-import './App.css';
-import LandingPage from './components/landing/landing-page';
-import Navigation from './components/navigation/navigation';
+import "./App.css";
+import Footer from "./components/footer/footer";
+import LandingPage from "./components/landing/landingPage";
+import Menu from "./components/menu/menu";
+import Navigation from "./components/navigation/navigation";
 
 function App() {
   return (
@@ -10,8 +12,12 @@ function App() {
       </header>
       <main>
         <LandingPage/>
+        <h2>Menu</h2>
+        <Menu/>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }

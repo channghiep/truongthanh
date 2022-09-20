@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react"
 //import module
-import Slider from 'react-slick'
-import '../../../../node_modules/react-slick/'
-import '../../../../node_modules/slick-carousel/slick/slick.css'
+import Slider from "react-slick"
+import "../../../../node_modules/react-slick/"
+import "../../../../node_modules/slick-carousel/slick/slick.css"
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
+import "../promotion/promotion.css"
 
 const Promotion = () => {
     //Carousel setting
     const settings = {
-        dots: true,
+        dots: false,
         // infinite: true,
         // speed: 500,
         // slidesToShow: 1,
@@ -25,7 +26,7 @@ const Promotion = () => {
     };
 
     return(
-        <div className='promotion-container'>
+        <div className="promotion-container">
             <Slider {...settings}>
             <div>
               <h3>Open 10AM to 4AM everyday</h3>
