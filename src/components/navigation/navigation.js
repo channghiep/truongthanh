@@ -21,18 +21,18 @@ const Navigation = () => {
                             <div className={`burger-line ${isActivated ? "burger-active-bottom" : "burger-inactive"}`}></div>
                     </div>
                     <ul>
-                        <li><a href="#feature-container">Home</a></li>
-                        <li><a href="#menu-container">Menu</a></li>
-                        <li><a href="#footer-container">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     
                 </div>
                 
             </div>
             <ul className={`nav-ul ${isActivated ? "nav-ul-opened" : "nav-ul-closed"}`}>
-                        <li onClick={activateBurger}><a href="#introduction-container">Home</a></li>
-                        <li onClick={activateBurger}><a href="#about-container">Menu</a></li>
-                        <li onClick={activateBurger}><a href="#contact-container">Contact</a></li>
+                        <li onClick={activateBurger}><a href="#home">Home</a></li>
+                        <li onClick={activateBurger}><a href="#menu">Menu</a></li>
+                        <li onClick={activateBurger}><a href="#contact">Contact</a></li>
             </ul>
         </div>
     )

@@ -3,7 +3,7 @@ import banhhoi from "../../../assets/banhhoi4.png"
 import "../feature/feature.css"
 const Feature = () => {
     return(
-        <div className="feature-container" id="feature-container">
+        <div className="feature-container">
             <div className="content">
                 <h3>Tastes like Home</h3>
                 {/* <p>Proudly family-owned and operated restaurant, we are pleased to offer you a delicious dining experience </p>

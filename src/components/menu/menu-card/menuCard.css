@@ -1,6 +1,7 @@
 .menu-card{
     background-color: #040926;
     color: white;
+    margin-top: 35px;
     /* height: 1000px; */
 }
 .menu-card h2{
@@ -32,17 +33,21 @@
         padding-left:0px;
     }
     .menu-item div{
-        padding-right: 250px;
-        padding-left: 250px;
+        padding-right: 300px;
+        padding-left: 300px;
         display: grid;
         grid-template-columns: 55% 45%;
         align-content: center;
     }
     .menu-item p{
-        padding-right: 250px;
-        padding-left: 250px;
+        padding-right: 300px;
+        padding-left: 300px;
     }
     .menu-item .mains-price{
         text-align: right;
+    }
+    .menu-card{
+        margin-top: 50px;
+        /* height: 1000px; */
     }
 }

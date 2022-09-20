@@ -1,4 +1,4 @@
-import React, {useState , useEffect} from "react"
+import React, {useState , useEffect, useRef} from "react"
 import MenuCard from "./menu-card/menuCard"
 import "./menu.css"
 import  { AppertizerList, BeefSoupList, RicePlattersList, SpecialNoodleList, SpecialOrdersList, SpecialList, VietSubList } from "../../misc/data"
@@ -6,15 +6,18 @@ import  { AppertizerList, BeefSoupList, RicePlattersList, SpecialNoodleList, Spe
 const Menu = () => {
     
     const [menuState, setMenuState] = useState(AppertizerList)
-    // const [selected, setSelected] = use
+    const [highlight, setHighlight] = useState(true)
+    const inputRef = useRef()
     //Function to change menu
     const menuChangeOnClick = (value) =>{
         setMenuState(value)
+        setHighlight(false)
     }
+   
     return(
         <div className="menu-container" id="menu-container">
             <ul tabIndex="1" className="menu-selection">
-                <li autoFocus={true} tabIndex="1" onClick={() => menuChangeOnClick(AppertizerList)}><h3>Appertizers</h3></li>
+                <li className={`${highlight ? "selected-menu" : ""}`}tabIndex="1" onClick={() => menuChangeOnClick(AppertizerList)}><h3>Appertizers</h3></li>
                 <li tabIndex="1" onClick={() => menuChangeOnClick(BeefSoupList)}><h3>Beef Noodle Soup</h3></li>
                 <li tabIndex="1" onClick={() => menuChangeOnClick(RicePlattersList)}><h3>Rice Platters</h3></li>
                 <li tabIndex="1" onClick={() => menuChangeOnClick(SpecialNoodleList)}><h3>Special Noodle Soup</h3></li>
