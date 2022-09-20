@@ -25,114 +25,109 @@ export const AppertizerList = [
     {
         name:"Chả Giò Thịt Chay (2pcs)",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Vietnamese Spring Rolls: pork or veggie"
     },
     {
         name:"Gỏi Cuốn/Gỏi Cuốn Chay (2pcs)",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Shrimp Salad Rolls/Vegetarian Salad Rolls"
     },
     {
         name:"Nem Cuốn (2pcs)",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Minced Pork Rolls"
     },
     {
         name:"Bì Cuốn",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Shredded Pork Rolls"
     },
     {
         name:"Roll Combo",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"9.5",
+        description:"Vietnamese Spring Rolls, Shrimp Salad Rolls, Minced Pork Rolls"
     },
     {
         name:"Cánh Gà Chiên Bơ",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Deep-fried Chicken Wings"
     },
     {
         name:"Đậu Hũ Chiên (5pcs)",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Deep-fried Tofu"
     },
     {
         name:"Chả Lụa Chiên",
         price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        description:"Deep-fried Vietnamese Ham"
     },
     {
         name:"Gà Nướng hay Sườn Nướng Không",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"6",
+        description:"Grilled Chicken or Pork Chops"
     }
 ]
 export const BeefSoupList = [
     {
         name:"Phở Tái",
-        price:"6.5",
+        price:"13",
         description:"Rare Beef Noodle Soup"
     },
     {
         name:"Phở Chín Nạm",
-        price:"6.5",
+        price:"11",
         description:"Well Done Beef Noodle Soup"
     },
     {
         name:"Phở Bò Viên",
-        price:"6.5",
+        price:"11",
         description:"Beef Ball Noodle Soup"
     },
     {
         name:"Phở Chín, Bò Viên",
-        price:"6.5",
+        price:"11",
         description:"Well Done Beef, Beef Ball Noodle Soup"
     },
     {
         name:"Phở Tái, Bò Viên",
-        price:"6.5",
+        price:"11",
         description:"Rare Beef, Beef Ball Noodle Soup"
     },
     {
         name:"Phở Tái, Sách",
-        price:"6.5",
+        price:"11",
         description:"Rare Beef, Tripe Noodle Soup"
     },
     {
         name:"Phở Tái, Gân",
-        price:"6.5",
+        price:"11",
         description:"Rare Beef, Tendon Noodle Soup"
     },
     {
         name:"Phở Tái, Nạm, Gân",
-        price:"6.5",
+        price:"11",
         description:"Rare Beef, Brisket, Tendon Noodle Soup"
     },
     {
         name:"Phợ Đặc Biệt",
-        price:"6.5",
+        price:"11",
         description:"House Special Beef Noodle Soup"
     },
     {
         name:"Phở Tái, Chín Nạm",
-        price:"6.5",
+        price:"11",
         description:"Rare Beef, Well Done Beef Noodle Soup"
     },
     {
         name:"Phở Chín Nạm, Gân,  Sách",
-        price:"6.5",
+        price:"11",
         description:"Well Done Beef Brisket, Tendon, Tripe Noodle Soup"
     },
     {
         name:"Phở Chín Nạm, Gân",
-        price:"6.5",
+        price:"11",
         description:"Well Done Beef Brisket, Tendon Noodle Soup"
-    },
-    {
-        name:"Phở Chín, Bò Viên**********",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
     }
 ]
 export const RicePlattersList = [
@@ -148,42 +143,42 @@ export const RicePlattersList = [
     },
     {
         name:"Cơm Sườn Bò Nướng Xả",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"17",
+        description:"Grilled Lemongrass Beef Short Rib on Rice"
     },
     {
         name:"Cơm Sườn, Nem Nướng",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongras Pork Chop, BBQ Minced Pork on Rice"
     },
     {
         name:"Cơm Gà, Nem Nướng",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken, BBQ Minced Pork on Rice"
     },
     {
         name:"Cơm Gà Nướng Xả",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken on Rice"
     },
     {
         name:"Cơm Gà Nướng, Sườn",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken, Pork Chop on Rice"
     },
     {
         name:"Cơm Gà Nướng, Thịt Lụi",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken, Pork Brochette on Rice"
     },
     {
         name:"Cơm Gà Nướng, Tôm Nướng",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken, Grilled Prawns on Rice"
     },
     {
         name:"Cơm Gà Nướng, 2 Trứng Ốpla",
-        price:"6.5",
+        price:"13",
         description:"Grilled Lemongrass Chicken, 2 Eggs on Rice"
     }
 ]
@@ -227,43 +222,43 @@ export const SpecialNoodleList = [
 export const SpecialOrdersList = [
     {
         name:"Bún Măng Gà ",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13.5",
+        description:"Free Range Chicken Soup"
     },
     {
         name:"Bún Bò Huế",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13",
+        description:"Beef Flank in Vermicelli Hot Spicy Soup"
     },
     {
         name:"Bún Chả Cá Rau Cần Dọc Mùng",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13",
+        description:"Fried Fish Cake with Verimicelli in Soup"
     },
     {
         name:"Bún Chả Cá & Chả Lá Lốt Dọc Mùng",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"14",
+        description:"Fried Fish Cake, Fried Minced Pork with Vermicelli in Soup"
     },
     {
         name:"Bún Chả Cá & Cá Chiên Dọc Mùng",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"15",
+        description:"Fried Fish Cake, Fried Fish Meat with Vermicelli in Soup"
     },
     {
         name:"Bánh Canh Tôm, Cua, Chả Lụa",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13",
+        description:"Prawn, Crab Meat, Vietnamese Ham with Udon in Soup"
     },
     {
         name:"Cà ri Gà ",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13",
+        description:"Chicken curry served with choice with vermicelli or rice or bread"
     },
     {
         name:"Miến Măng Gà",
-        price:"6.5",
-        description:"Vietnamese Spring Rolls"
+        price:"13.5",
+        description:"Free range chicken wrapped in sugar cane, served with vermicelli"
     }
 ]
 export const SpecialList = [
@@ -281,22 +276,22 @@ export const SpecialList = [
 export const VietSubList = [
     {
         name:"Bánh Mì Patê Thịt Nguội",
-        price:"6.5",
+        price:"7",
         description:"Cold Cut Meat Sub"
     },
     {
         name:"Bánh Mì Gà Nướng",
-        price:"6.5",
+        price:"7",
         description:"Grilled Chicken Sub"
     },
     {
         name:"Bánh Mì Thịt Nướng",
-        price:"6.5",
+        price:"7",
         description:"Grilled Pork Sub"
     },
     {
         name:"Bánh Mì Ốp La",
-        price:"6.5",
+        price:"7",
         description:"Sunny Side Up Egg Sub"
     }
 ]
