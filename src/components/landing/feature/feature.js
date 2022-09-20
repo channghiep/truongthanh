@@ -11,7 +11,9 @@ const Feature = () => {
                 <a href="#" class="btn">order now</a> */}
             </div>
             <div className="image">
-                <img src={banhhoi}/>
+                {/* <div className="image-rotate"> */}
+                    <img src={banhhoi}/>
+                {/* </div> */}
             </div>
         </div>
     )

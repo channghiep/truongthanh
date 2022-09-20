@@ -30,7 +30,8 @@
   .box .content {
     text-align: center;
     background: #f7f7f7;
-    /* padding: 30px; */
+    padding: 30px;
+    height: 100px;
     /* position: absolute; */
     /* top: -100%; */
     /* left: 0; */
@@ -48,7 +49,11 @@
     color: #666;
     /* padding: 16px 0; */
   }
-  
+  @media (min-width: 1000px) {
+    .box .content {
+      padding: 30px;
+    }
+  }
   /* .box:hover .content {
     top: 0;
   }

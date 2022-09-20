@@ -8,7 +8,7 @@ const MenuCard = (props) => {
                 <article className="menu-item" key={index}>
                     <div>
                         <h3 className="mains-name">{meal.name}</h3>
-                        <p className="mains-price">${meal.price}</p>
+                        <h4 className="mains-price">$ {meal.price}</h4>
                     </div>
                     <p className="mains-description">{meal.description}</p>
                 </article>

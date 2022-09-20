@@ -1,6 +1,8 @@
 .menu-container{
     background-color: #040926;
     min-height: 100vh;
+    width: 90%;
+    margin: auto;
 }
 .menu-selection{
     margin: 0;

@@ -7,18 +7,18 @@ export const specialList =
 [
     {
         image:comsuon,
-        name:"Com Suon",
-        price:"11.5"
+        name:"Grilled Lemongrass Pork Chop on Rice",
+        price:"$ 14.5"
     },
     {
         image:pho,
-        name:"Pho",
-        price:"11.5"
+        name:"House Special Beef Noodle Soup",
+        price:"$ 12"
     },
     {
         image:chaca2,
-        name:"Cha ca",
-        price:"11.5"
+        name:"Fish Cake",
+        price:"$ 11.5"
     }
 ]
 export const AppertizerList = [

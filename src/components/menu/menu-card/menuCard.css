@@ -21,8 +21,28 @@
     grid-template-columns: 65% 35%;
 }
 .mains-price{
+    align-items: right;
     color:#EFD6AC;
 }
 .mains-description{
     margin-top: -10px;
+}
+@media (min-width: 1000px) {
+    .menu-item {
+        padding-left:0px;
+    }
+    .menu-item div{
+        padding-right: 250px;
+        padding-left: 250px;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        align-content: center;
+    }
+    .menu-item p{
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+    .menu-item .mains-price{
+        text-align: right;
+    }
 }

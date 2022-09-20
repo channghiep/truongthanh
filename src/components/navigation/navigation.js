@@ -23,7 +23,7 @@ const Navigation = () => {
                     <ul>
                         <li><a href="#feature-container">Home</a></li>
                         <li><a href="#menu-container">Menu</a></li>
-                        <li>Contact</li>
+                        <li><a href="#footer-container">Contact</a></li>
                     </ul>
                     
                 </div>

@@ -2,6 +2,7 @@
     position: relative;
     display: block;
     background-color: black;
+    border-bottom: 1px solid #EFD6AC;
 }
 .nav-container{
     /* position: absolute; */
@@ -133,6 +134,13 @@
             list-style: none;
             margin: 5px 20px;
             color: white;
+        }
+        .nav-bar ul li a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #fff;
+            font-weight: 1000;
+
         }
 
     }
