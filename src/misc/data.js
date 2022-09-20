@@ -295,3 +295,65 @@ export const VietSubList = [
         description:"Sunny Side Up Egg Sub"
     }
 ]
+export const VermicelliList = [
+    {
+        name:"Bún Chả Giò, Tôm Nuong, Chạo Tôm",
+        price:"15",
+        description:"Spring Roll, Grilled Prawn, Prawn Sugarcane with Vermicelli"
+    },
+    {
+        name:"Bún Thịt Nướng, Chạo Tôm",
+        price:"13",
+        description:"Grilled Pork, Prawn Sugarcane with Vermicelli"
+    },
+    {
+        name:"Bún Thịt Nướng, Chạo Tôm, Chả Giò",
+        price:"15",
+        description:"Grilled Pork, Prawn Sugarcane, Spring Roll with Vermicelli"
+    },
+    {
+        name:"Bún Thịt Nướng, Chả Giò",
+        price:"13",
+        description:"Grilled Pork, Spring Roll with Vermicelli"
+    },
+    {
+        name:"Bún Bì, Thịt Nướng, Chả Giò",
+        price:"15",
+        description:"Grilled Pork, Shredded Pork, Spring Roll with Vermicelli"
+    },
+    {
+        name:"Bún Cha Tôm, Chả Giò",
+        price:"13",
+        description:"Prawn Sugarcane, Spring Roll with Vermicelli"
+    },
+    {
+        name:"Bún Cha Tôm, Nem Nuong",
+        price:"13",
+        description:"Prawn Sugarcane, Minced Pork with Vermicelli"
+    },
+    {
+        name:"Bún Thịt Nướng, Tôm Nuong",
+        price:"13",
+        description:"Grilled Pork, Grilled Prawns with Vermicelli"
+    },
+    {
+        name:"Bún Gà Nuong, Chả Giò",
+        price:"13",
+        description:"Grilled Chicken, Spring Roll with Vermicelli"
+    },
+    {
+        name:"Bún Thịt Nướng, Nem Nướng, Chạo Tôm",
+        price:"15",
+        description:"Grilled Pork, Prawn Sugarcane, Minced Pork with Vermicelli"
+    },
+    {
+        name:"Bánh Hỏi Thịt Nướng Nem Nướng Chạo Tôm",
+        price:"19",
+        description:"Grilled Minced Pork or Prawn, with Vermicelli"
+    },
+    {
+        name:"Bánh Hỏi Thịt Nướng Nem Nướng Chạo Tôm",
+        price:"22",
+        description:"beef short ribs sugarcane, with Vermicelli"
+    }
+]
