@@ -37,6 +37,9 @@ const Promotion = () => {
             <div>
               <h2>Vegetarian options available</h2>
             </div>
+            <div>
+              <h2>Visa Debit and Cash are accepted</h2>
+            </div>
           </Slider>
         </div>
     )
