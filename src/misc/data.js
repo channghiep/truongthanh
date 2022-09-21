@@ -23,7 +23,7 @@ export const specialList =
 ]
 export const AppertizerList = [
     {
-        name:"Chả Giò Thịt Chay (2pcs)",
+        name:"Chả giò thịt chay (2pcs)",
         price:"6.5",
         description:"Vietnamese Spring Rolls: pork or veggie"
     },
