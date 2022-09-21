@@ -22,7 +22,7 @@
     grid-template-columns: 65% 35%;
 }
 .main-name{
-    font-family: Calibri;
+    font-family:"Times New Roman";
 }
 .mains-price{
     align-items: right;
