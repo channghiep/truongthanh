@@ -21,6 +21,9 @@
     display: grid;
     grid-template-columns: 65% 35%;
 }
+.main-name{
+    font-family: Calibri;
+}
 .mains-price{
     align-items: right;
     color:#EFD6AC;
