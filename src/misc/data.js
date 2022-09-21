@@ -467,33 +467,7 @@ export const SmoothiesList = [
         description:"Mango Smoothie"
     }
 ]
-export const BubbleTeaList = [
-    {
-        name:"Dâu",
-        price:"6",
-        description:"Strawberry"
-    },
-    {
-        name:"Khoai Môn",
-        price:"6",
-        description:"Taro"
-    },
-    {
-        name:"Đu Đủ",
-        price:"6",
-        description:"Papaya"
-    },
-    {
-        name:"Xoài",
-        price:"6",
-        description:"Mango"
-    },
-    {
-        name:"Trái Bom Xanh",
-        price:"6",
-        description:"Green Apple"
-    }
-]
+
 export const BeverageList = [
     {
         name:"Đa Chanh",
@@ -519,5 +493,30 @@ export const BeverageList = [
         name:"Nước Ngọt",
         price:"2.5",
         description:"Soft Drinks"
+    },
+    {
+        name:"Dâu Bubble Tea",
+        price:"6",
+        description:"Strawberry Bubble Tea"
+    },
+    {
+        name:"Khoai Môn Bubble Tea",
+        price:"6",
+        description:"Taro Bubble Tea"
+    },
+    {
+        name:"Đu Đủ Bubble Tea",
+        price:"6",
+        description:"Papaya Bubble Tea"
+    },
+    {
+        name:"Xoài Bubble Tea",
+        price:"6",
+        description:"Mango Bubble Tea"
+    },
+    {
+        name:"Trái Bom Xanh Bubble Tea",
+        price:"6",
+        description:"Green Apple Bubble Tea"
     }
 ]

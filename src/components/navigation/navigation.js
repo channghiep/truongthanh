@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import "./navigation.css"
+// Import library
+import {Link} from "react-scroll"
 
 const Navigation = () => {
     const [isActivated, setActive] = useState(false);
@@ -21,18 +23,18 @@ const Navigation = () => {
                             <div className={`burger-line ${isActivated ? "burger-active-bottom" : "burger-inactive"}`}></div>
                     </div>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
+                        <li><Link to="menu" spy={true} smooth={true}>Menu</Link></li>
+                        <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     </ul>
                     
                 </div>
                 
             </div>
             <ul className={`nav-ul ${isActivated ? "nav-ul-opened" : "nav-ul-closed"}`}>
-                        <li onClick={activateBurger}><a href="#home">Home</a></li>
-                        <li onClick={activateBurger}><a href="#menu">Menu</a></li>
-                        <li onClick={activateBurger}><a href="#contact">Contact</a></li>
+                        <li><Link onClick={activateBurger} activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
+                        <li><Link onClick={activateBurger} to="menu" spy={true} smooth={true}>Menu</Link></li>
+                        <li><Link onClick={activateBurger} to="contact" spy={true} smooth={true}>Contact</Link></li>
             </ul>
         </div>
     )
