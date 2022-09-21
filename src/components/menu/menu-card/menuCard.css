@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: 65% 35%;
 }
-.main-name{
+.mains-name{
     font-family: 'Montserrat', sans-serif!important;
 }
 .mains-price{
