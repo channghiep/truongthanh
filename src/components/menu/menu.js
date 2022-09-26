@@ -16,7 +16,7 @@ const Menu = () => {
     }
    
     return(
-        <div className="menu-container" id="menu-container">
+        <div className="menu-container secondary-background-color" id="menu-container">
             <ul tabIndex="1" className="menu-selection">
                 <li className={`${highlight ? "selected-menu" : ""}`}tabIndex="1" onClick={(event) => menuChangeOnClick(AppertizerList,event)}>Appertizers</li>
                 <li tabIndex="1" onClick={(event) => menuChangeOnClick(BeefSoupList,event)}>Beef Noodle Soup</li>

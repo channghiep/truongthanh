@@ -11,10 +11,10 @@ const Navigation = () => {
         setActive(!isActivated)
     }
     return(
-        <div className="nav-wrapper">
+        <div className="nav-wrapper primary-background-color primary-color">
             <div className="nav-container">
-                <div className="nav-logo">
-                    <a href="#">Trường Thành</a>
+                <div className="nav-logo ">
+                    <a className="primary-color" href="#">Trường Thành</a>
                     <p>Vietnamese Restaurant</p>
                 </div>
                 <div className="nav-bar">
@@ -22,7 +22,7 @@ const Navigation = () => {
                             <div className={`burger-line ${isActivated ? "burger-active-top" : "burger-inactive"}`} ></div>
                             <div className={`burger-line ${isActivated ? "burger-active-bottom" : "burger-inactive"}`}></div>
                     </div>
-                    <ul>
+                    <ul className="primary-color">
                         <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
                         <li><Link to="menu" spy={true} smooth={true}>Menu</Link></li>
                         <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
