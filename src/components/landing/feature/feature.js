@@ -6,7 +6,7 @@ const Feature = () => {
         <div className="feature-container primary-background-color">
             <div className="content primary-color">
                 <h3 className="glow">Tastes like Home</h3>
-                <p className="glow">Proudly family-owned and operated restaurant, we are pleased to offer you a delicious dining experience </p>
+                <p className="glow">since 1993</p>
                 {/* <p>We are committed to using fresh ingredients and meticulously preparing most of the dishes in-house to ensure your satisfaction</p>
                 <a href="#" class="btn">order now</a> */}
             </div>

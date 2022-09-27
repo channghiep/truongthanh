@@ -4,9 +4,13 @@
     overflow: hidden;
     cursor: pointer; */
     /* background-color: #f7f7f7; */
-    background-color: #BFDBF7;
+    background-color: #FFFEFF;
     /* max-height: 300px; */
+    margin: 5px;
+    /* border: 1px solid red; */
+
   }
+
   
   .box .image-cont {
     height: 150px;
@@ -29,9 +33,9 @@
 
   
   .box .content {
-    text-align: center;
-    background: #f7f7f7;
-    padding: 30px;
+    text-align: left;
+    /* background: #f7f7f7; */
+    padding: 10px;
     height: 100px;
     /* position: absolute; */
     /* top: -100%; */
@@ -40,14 +44,15 @@
 
   
   .box .content h3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #040926;
+    margin: 0px;;
     /* background-color: aquamarine; */
   }
   
   .box .content p {
     font-size: 14px;
-    color: #666;
+    /* color: #666; */
     /* padding: 16px 0; */
   }
   @media (min-width: 1000px) {

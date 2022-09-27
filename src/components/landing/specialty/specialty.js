@@ -41,12 +41,13 @@ const Specialty = () => {
             <div class="box-container">
                 <Slider {...settings}>
                 {specialList.map((item)=>{
-                    const {image, name, price} = item
+                    const {image, name, price, description} = item
                     return(
                         <SpecialtyCard
                             image={image}
                             name={name}
-                            price={price}  
+                            price={price}
+                            description={description}  
                         />    
                     )
                 })}

@@ -2,7 +2,7 @@
 .App {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  background-color: #E1E5F2;
+  /* background-color: #E1E5F2; */
   
 }
 
@@ -40,7 +40,7 @@
     transform: rotate(360deg);
   }
 }
-.glow {
+.gloww {
   text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
@@ -64,15 +64,17 @@
 
 .primary-background-color{
   
-  background-color: #E1E5F2;
+  /* background-color: #E1E5F2; */
   /* background-color: #040926; */
+  /* background-color: #FCDEAF; */
+  background-color: #FFF2DE;
   ;
 
 }
 .secondary-background-color{
-  background-color: #E1E5F2;
+  /* background-color: #E1E5F2; */
 }
 .primary-color{
-  color:#414288;
+  color:#2F182C;
 }
 

@@ -5,7 +5,7 @@ import Specialty from "./specialty/specialty"
 
 const LandingPage = () => {
     return(
-        <div className="landing-container secondary-background-color">
+        <div className="landing-container primary-background-color">
             <Feature/>
             <Promotion/>
             <h2 id="menu">Specialty</h2>

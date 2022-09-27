@@ -26,7 +26,7 @@ const Promotion = () => {
     };
 
     return(
-        <div className="promotion-container">
+        <div className="promotion-container primary-color">
             <Slider {...settings}>
             <div>
               <h2>Open 11AM to 4AM everyday</h2>
@@ -41,6 +41,15 @@ const Promotion = () => {
               <h2>Visa Debit and Cash are accepted</h2>
             </div>
           </Slider>
+          {/* <div>
+            <h2>Open 11AM to 4AM everyday</h2>
+            <h2>Uber, Doordash available</h2>
+            <h2>Vegetarian options available</h2>
+            <h2>Visa Debit and Cash are accepted</h2>
+          </div> */}
+            
+
+
         </div>
     )
 }

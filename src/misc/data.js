@@ -7,17 +7,20 @@ export const specialList =
 [
     {
         image:comsuon,
-        name:"Grilled Lemongrass Pork Chop on Rice",
+        name:"Cơm sườn nướng xả",
+        description:"Grilled Lemongrass Pork Chop on Rice",
         price:"$ 14.5"
     },
     {
         image:pho,
-        name:"House Special Beef Noodle Soup",
+        name:"Phở đặc biệt",
+        description:"House Special Beef Noodle Soup",
         price:"$ 12"
     },
     {
         image:chaca2,
-        name:"Fish Cake",
+        name:"Chả cá",
+        description:"Fish Cake",
         price:"$ 11.5"
     }
 ]
