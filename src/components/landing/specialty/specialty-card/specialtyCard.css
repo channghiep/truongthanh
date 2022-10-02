@@ -33,9 +33,11 @@
 
   
   .box .content {
-    text-align: left;
+    font-family: 'Montserrat', sans-serif!important;
+    text-align: center;
     /* background: #f7f7f7; */
-    padding: 10px;
+    padding-top: 90px;
+    padding-bottom: 20px;
     height: 100px;
     /* position: absolute; */
     /* top: -100%; */
@@ -44,14 +46,14 @@
 
   
   .box .content h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: #040926;
     margin: 0px;;
     /* background-color: aquamarine; */
   }
   
   .box .content p {
-    font-size: 14px;
+    font-size: 20px;
     /* color: #666; */
     /* padding: 16px 0; */
   }

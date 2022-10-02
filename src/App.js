@@ -12,7 +12,7 @@ function App() {
       </header>
       <main>
         <LandingPage/>
-        <h2>Menu</h2>
+
         <Menu/>
       </main>
       <footer>

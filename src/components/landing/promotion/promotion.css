@@ -1,7 +1,11 @@
 .promotion-container{
     width: 100%;
     height: 70px;
-    background-color: #FFFEFF;
+    /* background-color: #FFFEFF; */
+    background-color: #040926;
+    color:#EFD6AC;
+
+
 }
 @media (min-width:1000px) {
     .promotion-container{

@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   font-family: 'Lato', sans-serif;
+  background-color: #FFF2DE;
   /* background-color: #E1E5F2; */
   
 }
@@ -18,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #FFF2DE;
+  /* background-color: #FFF2DE; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
