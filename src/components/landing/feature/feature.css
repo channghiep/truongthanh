@@ -11,6 +11,7 @@
     background-position: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
     text-align: center;
+    height: calc(100vh - 140px);
 }
 .feature-container .content {
     flex: 1 1 640px;

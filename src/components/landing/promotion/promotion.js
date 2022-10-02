@@ -17,12 +17,30 @@ const Promotion = () => {
         // dots: false,
       infinite: true,
       speed: 3000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       autoplay: true,
       autoplaySpeed: 6000,
       cssEase: "linear",
-      arrows: false
+      arrows: false,
+      responsive:[
+        {
+          breakpoint:1000,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+
+          }
+        },
+        {
+          breakpoint:700,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+
+          }
+        }
+      ]
     };
 
     return(
