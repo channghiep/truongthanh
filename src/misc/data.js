@@ -6,12 +6,6 @@ import eat from "../assets/eat.jpg"
 
 export const specialList = 
 [
-    // {
-    //     image: eat,
-    //     name:"",
-    //     description:"",
-    //     price:""
-    // },
     {
         image:comsuon,
         name:"Cơm sườn nướng xả",
@@ -337,17 +331,17 @@ export const VermicelliList = [
         description:"Prawn Sugarcane, Spring Roll with Vermicelli"
     },
     {
-        name:"Bún Cha Tôm, Nem Nuong",
+        name:"Bún Cha Tôm, Nem Nướng",
         price:"13",
         description:"Prawn Sugarcane, Minced Pork with Vermicelli"
     },
     {
-        name:"Bún Thịt Nướng, Tôm Nuong",
+        name:"Bún Thịt Nướng, Tôm Nướng",
         price:"13",
         description:"Grilled Pork, Grilled Prawns with Vermicelli"
     },
     {
-        name:"Bún Gà Nuong, Chả Giò",
+        name:"Bún Gà Nướng, Chả Giò",
         price:"13",
         description:"Grilled Chicken, Spring Roll with Vermicelli"
     },
@@ -389,7 +383,7 @@ export const FamilyDinnerList = [
         description:"Deep Fried Tilapia Fish in Tomato Sauce"
     },
     {
-        name:"Cá Rô Phi Chien Dòn",
+        name:"Cá Rô Phi Chiên Giòn",
         price:"18",
         description:"Deep Fried Tilapia Fish"
     },
@@ -401,7 +395,7 @@ export const FamilyDinnerList = [
 ]
 export const VegetarianList = [
     {
-        name:"Bún Chả Giò Đàu Hủ",
+        name:"Bún Chả Giò Đậu Hũ",
         price:"12",
         description:"Deep fried tofu and spring rolls with vermicelli"
     },
@@ -411,12 +405,12 @@ export const VegetarianList = [
         description:"Vegetable rice noodle soup"
     },
     {
-        name:"Cơm Xào Rau Chay Đàu Hủ",
+        name:"Cơm Xào Rau Chay Đậu Hũ",
         price:"14",
         description:"Stir fried vegetable and deep-fried tofu on rice"
     },
     {
-        name:"Cơm Chien Chay",
+        name:"Cơm Chiên Chay",
         price:"14",
         description:"Vegetarian Fried Rice"
     }
@@ -452,17 +446,17 @@ export const DessertsList = [
 ]
 export const SmoothiesList = [
     {
-        name:"Sinh Tố Dau",
+        name:"Sinh Tố Dâu",
         price:"6",
         description:"Strawberry Smoothie"
     },
     {
-        name:"Sinh Tố Bo",
+        name:"Sinh Tố Bơ",
         price:"6",
         description:"Avocado Smoothie"
     },
     {
-        name:"Sinh Tố Mit",
+        name:"Sinh Tố Mít",
         price:"6",
         description:"Jackfruit Smoothie"
     },
@@ -472,7 +466,7 @@ export const SmoothiesList = [
         description:"Pineapple Smoothie"
     },
     {
-        name:"Sinh Tố Xoai",
+        name:"Sinh Tố Xoài",
         price:"6",
         description:"Mango Smoothie"
     }
@@ -480,7 +474,7 @@ export const SmoothiesList = [
 
 export const BeverageList = [
     {
-        name:"Đa Chanh",
+        name:"Đá Chanh",
         price:"5",
         description:"Iced Fresh Lemonade"
     },
