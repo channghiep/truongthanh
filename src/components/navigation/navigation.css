@@ -86,12 +86,14 @@
     }
     /* Hide menu list */
     .nav-ul{
+        
         color: white;
         transition: .5s ease;
         list-style: none;
         text-align: center;
         background-color: black;
         margin: 0px;
+        padding: 0px;
         
     }
     .nav-ul li a{

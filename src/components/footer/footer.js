@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-container" id="contact">
           <h2>Truong Thanh Vietnamese Restaurant</h2>
           <h3>2096 Kingsway, Vancouver, BC V5N 2T3</h3>
-          <h1>{'-- '}<a href="tel:604-876-9288"> Call Us</a>{' --'}</h1>
+          <h1><a href="tel:604-876-9288">Call Us</a></h1>
           <ul>
             <li>Monday: <span>11am-2am</span></li>
             <li>Tuesday: <span>11am-2am</span></li>
