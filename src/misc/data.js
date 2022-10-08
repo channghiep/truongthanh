@@ -115,7 +115,7 @@ export const BeefSoupList = [
     },
     {
         name:"Phợ Đặc Biệt",
-        price:"11",
+        price:"12 Small/$ 13.5 Large",
         description:"House Special Beef Noodle Soup"
     },
     {
@@ -137,7 +137,7 @@ export const BeefSoupList = [
 export const RicePlattersList = [
     {
         name:"Cơm Sườn Nướng Xả Bì Trứng",
-        price:"14.50",
+        price:"15.50",
         description:"Grilled Lemongrass Pork Chop, Shredded Pork, Egg on Rice"
     },
     {
