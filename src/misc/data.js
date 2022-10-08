@@ -1,10 +1,17 @@
 import chaca2 from "../assets/chaca2.png";
 import pho from "../assets/pho2.png";
 import comsuon from "../assets/comsuon1.png";
+import eat from "../assets/eat.jpg"
 
 
 export const specialList = 
 [
+    // {
+    //     image: eat,
+    //     name:"",
+    //     description:"",
+    //     price:""
+    // },
     {
         image:comsuon,
         name:"Cơm sườn nướng xả",

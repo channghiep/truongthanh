@@ -47,7 +47,7 @@ const Promotion = () => {
         <div className="promotion-container primary-color">
             <Slider {...settings}>
             <div>
-              <h2>Open 11AM to 4AM everyday</h2>
+              <h2>Open 11AM to 2AM everyday</h2>
             </div>
             <div>
               <h2>Uber, Doordash available</h2>
