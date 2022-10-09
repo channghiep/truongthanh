@@ -16,7 +16,7 @@ export const specialList =
         image:pho,
         name:"Phở đặc biệt",
         description:"House Special Beef Noodle Soup",
-        price:"$ 12"
+        price:"$ 12 Small/$ 13.5 Large"
     },
     {
         image:chaca2,
