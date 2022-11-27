@@ -38,12 +38,13 @@ const Specialty = () => {
         <div className="specialty-container">
             <div className="special_dishes">
             </div>
-            <div class="box-container">
+            <div className="box-container">
                 <Slider {...settings}>
-                {specialList.map((item)=>{
+                {specialList.map((item, index)=>{
                     const {image, name, price, description} = item
                     return(
                         <SpecialtyCard
+                            key = {index}
                             image={image}
                             name={name}
                             price={price}

@@ -41,39 +41,11 @@
     transform: rotate(360deg);
   }
 }
-.gloww {
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #00B295,
-    0 0 82px #00B295,
-    0 0 92px #00B295,
-    0 0 102px #00B295,
-    0 0 151px #00B295;
-}
 
-/* @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
-} */
 
 .primary-background-color{
   
-  /* background-color: #E1E5F2; */
-  /* background-color: #040926; */
-  /* background-color: #FCDEAF; */
   background-color: #FFF2DE;
-  ;
-
-}
-.secondary-background-color{
-  /* background-color: #E1E5F2; */
 }
 .primary-color{
   color:#2F182C;

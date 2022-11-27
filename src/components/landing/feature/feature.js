@@ -9,12 +9,18 @@ const Feature = () => {
                 <p className="glow">since 1993</p>
                 {/* <p>We are committed to using fresh ingredients and meticulously preparing most of the dishes in-house to ensure your satisfaction</p>
                 <a href="#" class="btn">order now</a> */}
+                <div className="online-order">
+                    <button>
+                        order to pick up now
+                    </button>
+                </div>
             </div>
             <div className="image">
                 {/* <div className="image-rotate"> */}
                     <img src={banhhoi}/>
                 {/* </div> */}
             </div>
+            
         </div>
     )
 }

@@ -4,11 +4,11 @@ import "./specialtyCard.css"
 
 const SpecialtyCard = (props) =>{
     return(
-        <div class="box">
+        <div className="box" key={props.index}>
             <div className="image-cont">
-                <img class="image" src={props.image} alt=""/>
+                <img className="image" src={props.image} alt=""/>
             </div>            
-            <div class="content">
+            <div className="content">
                 <h3>{props.name}</h3>
                 <p>{props.description}</p>
                 <p>{props.price}</p>
