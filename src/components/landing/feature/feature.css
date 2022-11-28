@@ -30,6 +30,7 @@
   border-color: #2F182C;
   background-color: #2F182C;
   font-size: large;
+  padding: 0;
 }
 .feature-container .online-order button a {
 text-decoration: none;
