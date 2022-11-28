@@ -29,9 +29,11 @@
   border-radius: 8px;
   border-color: #2F182C;
   background-color: #2F182C;
-  color: #FFF2DE;
   font-size: large;
-
+}
+.feature-container .online-order button a {
+text-decoration: none;
+color: #FFF2DE;
 }
 
 .feature-container .image {

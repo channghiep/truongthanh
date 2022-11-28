@@ -11,7 +11,7 @@ const Feature = () => {
                 <a href="#" class="btn">order now</a> */}
                 <div className="online-order">
                     <button>
-                        order to pick up now
+                        <a href="https://next.perkhero.com/merchant/truong-thanh-vietnamese-restaurant-%E9%95%B7%E5%9F%8E%E8%B6%8A%E5%8D%97%E9%A4%90%E5%BB%B3-a382?hide-merchant-info=false&landing=false&clear-landing=false&hide-progress=true&auto-confirm=false&category-control=true&require-email=true&greeting=Welcome">order to pick up now</a>
                     </button>
                 </div>
             </div>

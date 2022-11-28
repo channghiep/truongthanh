@@ -10,7 +10,7 @@ export const specialList =
         image:comsuon,
         name:"Cơm sườn nướng xả",
         description:"Grilled Lemongrass Pork Chop on Rice",
-        price:"$ 14.5"
+        price:"$ 14"
     },
     {
         image:pho,
@@ -137,12 +137,12 @@ export const BeefSoupList = [
 export const RicePlattersList = [
     {
         name:"Cơm Sườn Nướng Xả Bì Trứng",
-        price:"15.50",
+        price:"15.5",
         description:"Grilled Lemongrass Pork Chop, Shredded Pork, Egg on Rice"
     },
     {
         name:"Cơm Sườn Nướng Xả",
-        price:"14.00",
+        price:"14",
         description:"Grilled Lemongrass Pork Chop on Rice"
     },
     {
