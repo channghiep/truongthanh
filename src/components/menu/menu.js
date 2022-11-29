@@ -1,4 +1,4 @@
-import React, {useState , useEffect, useRef} from "react"
+import React, {useState} from "react"
 import MenuCard from "./menu-card/menuCard"
 import "./menu.css"
 import  { AppertizerList, BeefSoupList, RicePlattersList, SpecialNoodleList, SpecialOrdersList, SpecialList, VietSubList, VermicelliList, FamilyDinnerList, VegetarianList, CoffeeList, DessertsList, SmoothiesList, BeverageList, BubbleTeaList } from "../../misc/data"
