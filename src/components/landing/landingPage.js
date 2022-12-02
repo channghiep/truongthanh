@@ -8,7 +8,7 @@ const LandingPage = () => {
         <div className="landing-container primary-background-color">
             <Feature/>
             <Promotion/>
-            <h2 id="menu">Specialty</h2>
+            <h2 id="menu">Our Specials</h2>
             <Specialty/>
         </div>
     )
